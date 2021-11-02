@@ -1,0 +1,36 @@
+.ProjectCardContainer {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 70vw;
+    padding: 50px;
+    margin-bottom: 100px;
+    border-radius: 3px;
+}
+
+@media (min-width: 50vw) {
+    .CarouselContainer {
+        transform: translateX(-150px);
+        padding: 20px;
+        width: 3000px;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+}
+
+@media (min-width: 5px) {
+    .CarouselContainer {
+        background-color: black;
+    }
+}
+
+.ProjectDescriptionContainer {
+    transform: translateX(-70px);
+}
+
+.ProjectDescriptionContainer li {
+    font-size: 30px;
+}
+.ProjectCardContainer hr {
+    width: 90%;
+}

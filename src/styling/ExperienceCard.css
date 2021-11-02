@@ -1,0 +1,65 @@
+.ExperienceCard {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 0 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    width: 90vw;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    max-width: 150px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.ExperienceCardDescription {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.TitleContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+
+.TitleContainer h1 {
+    font-size: 25px;
+    margin: auto 2% 1% 0;;
+    padding: 0;
+}
+
+#duration {
+    margin: auto 2% 1% auto;
+}
+
+.SubtitleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+#companyName {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#location {
+    margin: 0 2% 0 auto;
+}
+
+
+li {
+    font-size: 20px;
+}

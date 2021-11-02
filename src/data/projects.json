@@ -1,0 +1,32 @@
+{
+  "IMDBClone": {
+    "ProjectName": "IMDBClone",
+    "Github": "https://github.com/phampe68/IMDBClone",
+    "Host": "https://imdbcloneweb.herokuapp.com/",
+    "Time": "Jan 2021",
+    "Images": [
+      "https://user-images.githubusercontent.com/38918965/131896748-89ab8c8c-7f6b-46e5-9c0c-7ddd46a7544b.png",
+      "https://user-images.githubusercontent.com/38918965/131896932-7233bc16-ca1e-4cef-9099-d6e8f923bddb.png",
+      "https://user-images.githubusercontent.com/38918965/118345679-2fb7bf80-b504-11eb-8d92-0fd752e9efa7.jpg",
+      "https://user-images.githubusercontent.com/38918965/118345680-30e8ec80-b504-11eb-99a5-7348ad31b97b.jpg"
+    ],
+    "Description": [
+      "Built a REST API using NodeJS and Express that allows adding movie reviews, contributing new movies, and following other people/users through interactions with a mongodb database.",
+      "Used Bootstrap and Pug to dynamically render data objects.",
+      "Designed algorithms in JavaScript to generate: movie recommendations, lists of similar movies for each movie, and frequent collaborators for each person."
+    ]
+  },
+  "Fast Food Haven": {
+    "ProjectName": "Fast Food Haven (CU Hacking uiPath Hack Winner",
+    "Hackathon": "https://devpost.com/software/fast-food-haven",
+    "Images": [
+      "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/908/167/datas/gallery.jpg",
+      "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/908/324/datas/gallery.jpg"
+    ],
+    "Description": [
+      "Built a fast food coupon web scraping web app that won best uiPath Hack at Ottawa’s largest hackathon: CU Hacking.",
+      "Used uiPath, a Robotic Process Automation tool to scrape fast food coupon info from websites.",
+      " Implemented Bootstrap and custom CSS to display coupons in a grid of cards with thumbnails and links for redeeming."
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.LandingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.Experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.Projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.LandingContainer hr {
+    width: 80%;
+}
+
+.LandingContainer h1 {
+    font-size: 80px;
+    color: white;
+}
+
+.LandingContainer p {
+}

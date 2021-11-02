@@ -1,0 +1,39 @@
+{
+  "Ross Video": {
+    "positionName": "Software Developer",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ross_Video_Logo.png/799px-Ross_Video_Logo.png",
+    "companyName": "Ross Video",
+    "location": "Ottawa, Ontario, Canada",
+    "duration": "May 2021 - Present",
+    "description": [
+      "Worked with MVC design and plugin architecture using Java and Struts to develop a back end that supports multiple cloud infrastructure products.",
+      "Deployed regular bug fixes and features in Java to fulfill the requirements of several client product teams.",
+      "Implemented a client ID and secret solution following OAuth2 best practices to secure an API.",
+      "Wrote unit tests and integration tests using JUnit for 100% of new code and extended test coverage across 3 projects."
+    ]
+  },
+  "Solink": {
+    "positionName": "Quality Assurance Analyst",
+    "logo": "http://solink.com/wp-content/uploads/2020/10/large-solink.png",
+    "companyName": "Solink",
+    "location": "Ottawa, Ontario, Canada",
+    "duration": "May 2020 - Aug 2020",
+    "description": [
+      "Developed and implemented a new tool for detecting missing transaction data to replace an existing manual test saving 6 hours per test.",
+      "Helped update end to end automation tests to work with a redesigned product UI.",
+      "Created new API tests using JavaScript to replace existing manual tests and familiarized tests with technically inexperienced team members to reduce certain test times from 4 hours to 30 minutes.",
+      "Worked in an Agile environment to implement features and bug fixes in Typescript and JavaScript."
+    ]
+  },
+  "HolyRedeemer": {
+    "positionName": "Volunteer Software Developer",
+    "logo": "https://pbs.twimg.com/profile_images/2766766233/e63d78eed6f2b682a74822a97d7a376f_400x400.jpeg",
+    "companyName": "Holy Redeemer School",
+    "location": "Ottawa, Ontario, Canada",
+    "duration": "May 2017 - May 2017",
+    "description": [
+      "Used object oriented design principles to build an action script tower defense game using artwork from 3rd grade students.",
+      "Game included modular towers, maps, and projectiles and was ported to a BlackBerry tablet"
+    ]
+  }
+}
