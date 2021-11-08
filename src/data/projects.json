@@ -1,8 +1,7 @@
 {
   "IMDBClone": {
     "ProjectName": "IMDBClone",
-    "Github": "https://github.com/phampe68/IMDBClone",
-    "Host": "https://imdbcloneweb.herokuapp.com/",
+    "Links": [["Github", "https://github.com/phampe68/IMDBClone"], ["Website Demo", "https://imdbcloneweb.herokuapp.com/"]],
     "Time": "Jan 2021",
     "Images": [
       "https://user-images.githubusercontent.com/38918965/131896748-89ab8c8c-7f6b-46e5-9c0c-7ddd46a7544b.png",
@@ -18,7 +17,7 @@
   },
   "Fast Food Haven": {
     "ProjectName": "Fast Food Haven (CU Hacking uiPath Hack Winner",
-    "Hackathon": "https://devpost.com/software/fast-food-haven",
+    "Links": [["Devpost Award", "https://devpost.com/software/fast-food-haven"]],
     "Images": [
       "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/908/167/datas/gallery.jpg",
       "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/908/324/datas/gallery.jpg"

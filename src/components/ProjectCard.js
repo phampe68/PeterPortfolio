@@ -2,13 +2,14 @@ import "../styling/ProjectCard.css";
 import Colors from '../styling/colors.json';
 import React from "react";
 import {Carousel} from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import {Button} from "@mui/material"; // requires a loader
 
 const ProjectCard = (props) => {
     let carouselImages = [];
 
     // generate carousel images
-    for (let image of props.Images) {
+    for (let image of props["Images"]) {
         carouselImages.push(
             <div>
                 <img src={image} alt="carousel image"/>
@@ -17,8 +18,14 @@ const ProjectCard = (props) => {
 
     // generate description points
     let descriptions = [];
-    for (let point of props.Description) {
+    for (let point of props["Description"]) {
         descriptions.push(<li>{point}</li>);
+    }
+
+    // generate buttons for project links
+    let buttons = [];
+    for (let link of props["Links"]) {
+        buttons.push(<Button style={{backgroundColor: Colors[props.color]["a100"], color: "Black"}} variant="contained" onClick={() => {window.open(link[1], "_blank")}}>{link[0]}</Button>)
     }
     return (
         <div className="ProjectCardContainer" style={{
@@ -31,9 +38,12 @@ const ProjectCard = (props) => {
                           infiniteLoop={true}>
                     {carouselImages}
                 </Carousel>
+                <div className="LinksContainer">
+                    {buttons}
+                </div>
             </div>
             <div className="ProjectDescriptionContainer">
-                <h1>{props.ProjectName}</h1>
+                <h1>{props["ProjectName"]}</h1>
                 <hr style={{
                     backgroundColor: Colors[props.color]["a100"],
                     height: "2px",
