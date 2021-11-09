@@ -25,7 +25,13 @@ const ProjectCard = (props) => {
     // generate buttons for project links
     let buttons = [];
     for (let link of props["Links"]) {
-        buttons.push(<Button style={{backgroundColor: Colors[props.color]["a100"], color: "Black"}} variant="contained" onClick={() => {window.open(link[1], "_blank")}}>{link[0]}</Button>)
+        buttons.push(
+            <Button style={{backgroundColor: Colors[props.color]["a100"], color: "Black"}} variant="contained"
+                    onClick={() => {
+                        window.open(link[1], "_blank")
+                    }}>
+                <p>{link[0]}</p>
+            </Button>)
     }
     return (
         <div className="ProjectCardContainer" style={{

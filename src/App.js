@@ -50,7 +50,7 @@ function App() {
                         fontSize: "20px"
                     }}>
                         3rd Year Computer Science Student @Carleton University / Software Developer @Ross Video /
-                        Incoming Software Engineering Intern at MongoDB
+                        Incoming Software Engineering Intern @MongoDB
                     </p>
                 </Slide>
                 <ParticlesBg id="mainParticlePG" type="cobweb" color={globalColors[1]["700"]} bg={{
