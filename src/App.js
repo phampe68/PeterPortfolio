@@ -59,8 +59,8 @@ function App() {
                             color: globalColors[1]["900"],
                             fontSize: "20px"
                         }}>
-                            3rd Year Computer Science Student @Carleton University / Software Developer @Ross Video /
-                            Incoming Software Engineering Intern @MongoDB
+                            4th Year Computer Science Student @Carleton University /
+                            Software Engineering Intern @MongoDB
                         </p>
 
                         <div className="LinksContainer">

@@ -1,10 +1,32 @@
 {
+  "MongoDB - Atlas Backups": {
+    "positionName": "Software Engineering Intern",
+    "logo" : "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/erkxwhl1gd48xfhe2yld",
+    "companyName": "MongoDB - Atlas Backups",
+    "location": "New York, New York, United States",
+    "duration": "June 2023 - Present",
+    "description": [
+      "Using Java and Go, worked with AWS, GCP, and Azure disk snapshot endpoints to improve cloud provider snapshot code on MongoDB clusters"]
+  },
+
+  "MongoDB - Front End Platform": {
+    "positionName": "Software Engineering Intern",
+    "logo" : "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/erkxwhl1gd48xfhe2yld",
+    "companyName": "MongoDB - Front End Platform",
+    "location": "New York, New York, United States",
+    "duration": "June 2022 - Aug 2022",
+    "description": [
+      "Implemented front end bug fixes in TypeScript and deployed React component updates to the MongoDB cloud website.",
+      "Using Java and Typescript, developed a frontend performance monitoring API that measures and returns key performance metrics for given endpoints hosted by MongoDB.", 
+      "Developed a monitoring system with the API using Grafana and Prometheus to visualize performance metrics and generate alerts for abnormal metric values"
+     ]
+  },
   "Ross Video": {
     "positionName": "Software Developer",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ross_Video_Logo.png/799px-Ross_Video_Logo.png",
     "companyName": "Ross Video",
     "location": "Ottawa, Ontario, Canada",
-    "duration": "May 2021 - Present",
+    "duration": "May 2021 - Dec 2021",
     "description": [
       "Worked with MVC design and plugin architecture using Java and Struts to develop a back end that supports multiple cloud infrastructure products.",
       "Deployed regular bug fixes and features in Java to fulfill the requirements of several client product teams.",
