@@ -6,7 +6,10 @@
     "location": "New York, New York, United States",
     "duration": "June 2023 - Present",
     "description": [
-      "Using Java and Go, worked with AWS, GCP, and Azure disk snapshot endpoints to improve cloud provider snapshot code on MongoDB clusters"]
+      "Helped integrate Azure SSDV2 disks into cloud backup logic by leveraging the latest Azure API, enabling precise storage capacity scaling and IO performance enhancements.",
+      "Optimized database restore speeds by 13% for over 200 000 clusters impacting over 300 000 restores per month.",
+      "Implemented exponential back off procedures in Go to rate limit an API and decrease concurrency collisions."
+    ]
   },
 
   "MongoDB - Front End Platform": {
