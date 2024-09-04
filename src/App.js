@@ -49,7 +49,7 @@ function App() {
                     <div className="LandingTextContainer" style={{zIndex: 1}}>
 
 
-                        <h1 style={{color: globalColors[1]["900"]}}>Peter Pham</h1>
+                        <h1 style={{color: globalColors[1]["900"]}}>Bubs the builder</h1>
                         <hr style={{
                             backgroundColor: globalColors[1]["600"],
                             height: "3px",
